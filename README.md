@@ -1,4 +1,3 @@
-PROG56693 Exercise #1 Submission
 Alessandro Profenna
 Oct. 6 2019
 
@@ -12,10 +11,10 @@ the zip file folder in SurvivalShooterTutorial\Assets\Database.
 
 I created 4 tables:
 
-game_session: records an id for each new "game session" (that is, each time the game application is run)
-game round: records an id for each new "game round" in a particular game session (when the player dies, a new round starts)
-player_round_stats: At the end of each game round, the statistics of the player are recorded here 
-enemy_round_stats: At the end of each game round, the statistics for all enemies as a collective are recorded here
+game_session: records an id for each new "game session" (that is, each time the game application is run) <br>
+game round: records an id for each new "game round" in a particular game session (when the player dies, a new round starts) <br>
+player_round_stats: At the end of each game round, the statistics of the player are recorded here <br>
+enemy_round_stats: At the end of each game round, the statistics for all enemies as a collective are recorded here <br>
 
 3 of the stats for enemies that are recorded per round: average distance to player when killed, average survival time, number killed.
 
@@ -39,3 +38,10 @@ The UI logic is all in ShooterGameAnalysisForm.cs and the database querying is i
 There is also a game icon.
 
 Thanks!
+
+![GameMapView_TopDown](https://user-images.githubusercontent.com/15040875/72210401-c398f780-3488-11ea-9605-1c4f7d691109.png)
+
+![GameView](https://user-images.githubusercontent.com/15040875/72210402-c4318e00-3488-11ea-9179-f4392ede7fd3.png)
+
+![VisualizerTool](https://user-images.githubusercontent.com/15040875/72210403-c4318e00-3488-11ea-959d-7074718ce5fc.PNG)
+
